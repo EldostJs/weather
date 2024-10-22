@@ -1,0 +1,19 @@
+.searchBar {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.searchInput {
+    width: 250px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.9);
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.searchInput:focus {
+    outline: none;
+    box-shadow: 0 2px 8px rgba(33, 150, 243, 0.3);
+}

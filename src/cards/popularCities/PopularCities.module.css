@@ -1,0 +1,48 @@
+.citiesCard {
+    background: #4287f5;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  .viewMore {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .citiesList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .cityItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .cityName {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+  .cityWeather {
+    font-size: 14px;
+    opacity: 0.8;
+  }
